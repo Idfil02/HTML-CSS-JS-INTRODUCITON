@@ -1,0 +1,61 @@
+body{
+    background: rgb(10, 10, 10);
+    color: white;
+    font-family: sans-serif;
+}
+
+.scores-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-score{
+    margin-right: 20px;
+    margin: 20px;
+    text-align: center;
+    background: #ccc;
+    padding: 20px;
+    color: black;
+}
+
+.time{
+    margin-right: 20px;
+    margin: 20px;
+    text-align: center;
+    background: #ccc;
+    padding: 20px;
+    color: black;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    margin-top: 2rem;
+    padding: 20px;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background: rgb(61, 61, 61);
+}
+
+/* JavaScript */
+.emoji{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Twemoji_1f600.svg/1200px-Twemoji_1f600.svg.png");
+    background-position: center;
+    background-size: cover;
+}
